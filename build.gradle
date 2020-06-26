@@ -24,7 +24,7 @@ repositories {
 }
 
 dependencies {
-    annotationProcessor "com.uber.nullaway:nullaway:0.7.10-SNAPSHOT"
+    annotationProcessor "com.uber.nullaway:nullaway:0.7.11-SNAPSHOT"
     compileOnly "com.google.code.findbugs:jsr305:3.0.2"
     errorprone "com.google.errorprone:error_prone_core:2.3.2"
     errorproneJavac "com.google.errorprone:javac:9+181-r4173-1"
