@@ -6,10 +6,10 @@ import javax.annotation.Nonnull;
 public class Super {
     //Test for Return Nullable
 
-    @Nullable public String str;
-
-    //Test for Parameter not Nullable
-    public void nonNullParam(Object x, Object y){}
-
-
+    Object test(boolean b){
+        if(b){
+            return new Object();
+        }
+        else return null;
+    }
 }
