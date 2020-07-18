@@ -1,8 +1,8 @@
-package testpackage.param_nullable;;
+package testpackage.param_nullable;
 
 import javax.annotation.Nullable;
 
-public class BParam extends SParam{
+public class CParam extends SParam{
 
     @Nullable
     String test(Object b){

@@ -1,6 +1,6 @@
-package testpackage;
+package testpackage.return_nullable;
 
-public class BReturn extends SReturn{
+public class CReturn extends SReturn{
 
     Object test(boolean b){
         if(b){
@@ -9,5 +9,3 @@ public class BReturn extends SReturn{
         else return null;
     }
 }
-
-
