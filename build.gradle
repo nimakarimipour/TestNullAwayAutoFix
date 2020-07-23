@@ -18,8 +18,9 @@ apply plugin: 'edu.ucr.cs.riple.plugin'
 
 
 autoFixMode {
-    mode = "separate"
     fixPath = "/tmp/NullAwayFix"
+    hideNullAwayOutput = false
+//    maximumRound = 1
 }
 
 repositories {
