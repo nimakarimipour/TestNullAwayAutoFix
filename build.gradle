@@ -38,9 +38,10 @@ tasks.withType(JavaCompile) {
   // remove the if condition if you want to run NullAway on test code
   if (!name.toLowerCase().contains("test")) {
     options.errorprone {
-      check("NullAway", CheckSeverity.WARN)
+      check("NullAway", CheckSeverity.ERROR)
       option("NullAway:AnnotatedPackages", "testpackage")
       option("NullAway:AutoFix", "true")
     }
+      options.compilerArgs << "-Xmaxerrs" << "100000"
   }
 }
