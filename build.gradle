@@ -59,4 +59,5 @@ tasks.withType(JavaCompile) {
         }
         options.compilerArgs << "-Xmaxerrs" << "100000"
     }
+    //./gradlew wrapper --gradle-version 5.5
 }
