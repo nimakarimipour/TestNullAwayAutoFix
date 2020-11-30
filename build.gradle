@@ -3,6 +3,7 @@ import net.ltgt.gradle.errorprone.CheckSeverity;
 buildscript {
     repositories {
         mavenLocal()
+        mavenCentral()
     }
     dependencies {
         classpath 'edu.ucr.cs.riple:NullAwayAutoFixer:1.0-SNAPSHOT'
